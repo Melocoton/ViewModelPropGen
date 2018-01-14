@@ -9,7 +9,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/mymaterialize.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,6 +20,27 @@
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/myscript.js"></script>
+
+    <h1 class="center card-panel amber">ViewModelPropGen</h1>
+    <div class="row">
+        <div class="input-field col s5">
+            <input type="text" id="tipo" class="validate">
+            <label for="tipo">Tipo de propiedad</label>
+        </div>
+        <div class="input-field col s5">
+            <input type="text" id="nombre" class="validate">
+            <label for="nombre">Nombre de propiedad</label>
+        </div>
+        <div class="col s2">
+            <button class="btn-large waves waves-effect waves-light generar" style="width: 100%">Generar</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 input-field">
+            <textarea id="resultado" class="materialize-textarea"></textarea>
+            <label for="resultado">Resultado</label>
+        </div>
+    </div>
 
 </body>
 </html>
